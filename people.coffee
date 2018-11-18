@@ -4,7 +4,7 @@ class Human
 
       show: () ->
 
-            return "Id: #{@id}, #{@fname}, #{@lname}, #{@country}, #{@sal},\t #{@rat}"
+            return "Id: #{@id}, #{@fname}, #{@lname}, #{@country}, #{@sal},\tRat: #{@rat}"
 
 database = [
 
